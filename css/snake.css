@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url(../my_picture/ิิbb.jpg);
+}
+canvas#board {
+    margin-top: 100px; /* ปรับค่าตามที่ต้องการ */
+}
+ul {
+    position: absolute; 
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    list-style-type: none;
+}
+
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
